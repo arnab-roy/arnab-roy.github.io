@@ -14,12 +14,12 @@
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span></span><span></span><span class="sr-only">Toggle navigation</span>
+        <span class="sr-only">Toggle navigation</span>
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
         <a href="#experience">Experience</a><a href="#systems">Systems</a>
-        <a href="#publications">Publications</a>
         <a href="#recognition">Honors</a>
+        <a href="#publications">Publications</a>
       </nav>
     </header>
 
@@ -39,16 +39,11 @@
         </div>
         <div class="hero-content">
           <p class="hero-detail">My work spans foundational research, technical leadership, and production system design. I have led research organizations at Fujitsu and Meta and brought cryptographic systems into production at Mysten Labs.</p>
-          <div class="hero-pillars" aria-label="Professional focus">
-            <article><h2>Foundational research</h2><p>Cryptography, formal methods, machine learning, optimization, and machine-checked reasoning.</p></article>
-            <article><h2>Technical leadership</h2><p>Led research groups at Fujitsu and Meta, global R&amp;D programs, open-source initiatives, and service as a NIST subgroup co-chair.</p></article>
-            <article><h2>Production systems</h2><p>Work on authentication, privacy, access control, Bitcoin finance, and post-quantum migration for Sui.</p></article>
-          </div>
           <div class="hero-education">
             <h2>Education</h2>
             <ul class="education-list">
-              <li><div class="education-entry"><span>2009</span><div><h3>Stanford University</h3><p class="degree">Ph.D. in Computer Science</p><p class="detail">Advisor: Prof. John C. Mitchell<br />Dissertation: <em>Formal Proofs of Cryptographic Security of Network Protocols</em></p></div></div></li>
-              <li><div class="education-entry"><span>2004</span><div><h3>Indian Institute of Technology Kharagpur</h3><p class="degree">B.Tech. and M.Tech. in Computer Science and Engineering</p></div></div></li>
+              <li><div class="education-entry"><span>2009</span><div><div class="institution-heading"><span class="institution-mark"><img class="institution-logo logo-stanford" src="assets/logo-stanford.png" alt="" width="240" height="320" /></span><h3>Stanford University</h3></div><p class="degree">Ph.D. in Computer Science</p><p class="detail">Advisor: Prof. John C. Mitchell<br />Dissertation: <em>Formal Proofs of Cryptographic Security of Network Protocols</em></p></div></div></li>
+              <li><div class="education-entry"><span>2004</span><div><div class="institution-heading"><span class="institution-mark"><img class="institution-logo logo-iit-kharagpur" src="assets/logo-iit-kharagpur.png" alt="" width="1200" height="1550" /></span><h3>Indian Institute of Technology Kharagpur</h3></div><p class="degree">B.Tech. and M.Tech. in Computer Science and Engineering</p></div></div></li>
             </ul>
           </div>
           <div class="hero-references">
@@ -66,13 +61,13 @@
         <div class="section-label"><h2>Experience</h2></div>
         <div class="section-body">
           <div class="section-intro leadership-intro">
-            <p>My roles have combined individual research with responsibility for research groups, technical programs, open-source efforts, and product collaborations. The resulting work includes more than 40 granted US patents and over 10 internal technology transfers.</p>
+            <p>Work resulting in more than 40 granted US patents and over 10 internal technology transfers.</p>
           </div>
           <ul class="experience-list">
-            <li><div class="experience-entry"><div class="date">2022–</div><div><h3>Mysten Labs</h3><p class="role">Research Scientist</p><p>Cryptographic research and technical leadership for the Sui systems described below.</p></div></div></li>
-            <li><div class="experience-entry"><div class="date">2021–2022</div><div><h3>Meta</h3><p class="role">Research Scientist Manager</p><p>Led research scientists working at the intersection of cryptography, distributed systems, and production infrastructure.</p></div></div></li>
-            <li><div class="experience-entry"><div class="date">2012–2021</div><div><h3>Fujitsu Research of America</h3><p class="role">Senior Research Manager (2021) · Global Head of Cryptography Research and Blockchain Open Source (2020–2021)</p><p>Founded cryptography and algorithms research groups and led global R&amp;D teams.</p></div></div></li>
-            <li><div class="experience-entry"><div class="date">2010–2012</div><div><h3>IBM Research</h3><p class="role">Postdoctoral Researcher</p><p>Research in cryptography, secure systems, and composable security.</p></div></div></li>
+            <li><div class="experience-entry"><div class="date">2022–</div><div><div class="institution-heading"><span class="institution-mark"><img class="institution-logo logo-mysten" src="assets/logo-mysten.svg" alt="" width="34" height="20" /></span><h3>Mysten Labs</h3></div><p>Cryptographic research and technical leadership for the Sui systems described below.</p></div></div></li>
+            <li><div class="experience-entry"><div class="date">2021–2022</div><div><div class="institution-heading"><span class="institution-mark"><img class="institution-logo logo-meta" src="assets/logo-meta.svg" alt="" width="24" height="24" /></span><h3>Meta</h3></div><p>Led research scientists working at the intersection of cryptography, distributed systems, and production infrastructure.</p></div></div></li>
+            <li><div class="experience-entry"><div class="date">2012–2021</div><div><div class="institution-heading"><span class="institution-mark"><img class="institution-logo logo-fujitsu" src="assets/logo-fujitsu.svg" alt="" width="24" height="24" /></span><h3>Fujitsu Research of America</h3></div><p>Founded cryptography and algorithms research groups and led global R&amp;D teams.</p></div></div></li>
+            <li><div class="experience-entry"><div class="date">2010–2012</div><div><div class="institution-heading"><span class="institution-mark"><img class="institution-logo logo-ibm" src="assets/logo-ibm.svg" alt="" width="24" height="24" /></span><h3>IBM Research</h3></div><p>Research in cryptography, secure systems, and composable security.</p></div></div></li>
           </ul>
         </div>
       </section>
@@ -80,10 +75,6 @@
       <section class="section systems-section" id="systems">
         <div class="section-label"><h2>Systems</h2></div>
         <div class="section-body">
-          <div class="section-intro">
-            <p>Selected work at Mysten Labs involving cryptography, distributed protocols, programming languages, and formal verification.</p>
-          </div>
-
           <ul class="systems-list">
             <li class="system-item">
               <div class="system-heading"><span>Authentication</span><h3><a href="https://www.sui.io/zklogin" target="_blank" rel="noreferrer">zkLogin ↗</a></h3><p>Privacy-preserving blockchain authentication using existing web credentials. <a href="https://crypto.stanford.edu/seclab/sem-23-24/roy.html" target="_blank" rel="noreferrer">Talk at Stanford ↗</a></p></div>
@@ -124,11 +115,25 @@
         </div>
       </section>
 
+      <section class="section" id="recognition">
+        <div class="section-label"><h2>Honors</h2></div>
+        <div class="section-body">
+          <ul class="honors-list">
+            <li><span>2019</span><p><strong>Young Alumni Achiever Award</strong><br />IIT Kharagpur · <a href="https://www.linkedin.com/posts/indian-institute-of-technology-kharagpur_bigdata-ieee-darlington-activity-6568376523294900224-eV44" target="_blank" rel="noreferrer">LinkedIn ↗</a></p></li>
+            <li><span>2013–2020</span><p><strong>Co-Chair</strong><br />NIST Big Data Security and Privacy Subgroup · <a href="https://www.nist.gov/itl/big-data-nist/nbd-pwg-co-chairs" target="_blank" rel="noreferrer">NIST page ↗</a></p></li>
+            <li><span>2018</span><p><strong>Top-scoring paper</strong><br />Public-Key Cryptography (PKC)</p></li>
+            <li><span>2013</span><p><strong>Best Paper Award</strong><br />ASIACRYPT · <a href="https://www.iacr.org/cryptodb/data/paper.php?pubkey=24998" target="_blank" rel="noreferrer">IACR record ↗</a></p></li>
+            <li><span>2006</span><p><strong>Siebel Scholar</strong><br />Stanford Computer Science · <a href="https://en.wikipedia.org/wiki/Siebel_Scholars" target="_blank" rel="noreferrer">Siebel Scholars ↗</a></p></li>
+            <li><span>2004</span><p><strong>Prime Minister of India Gold Medal</strong><br />IIT Kharagpur</p></li>
+          </ul>
+        </div>
+      </section>
+
       <section class="section publications-section" id="publications">
         <div class="section-label"><h2>Publications</h2></div>
         <div class="section-body">
           <div class="section-intro split-intro">
-            <div><p>My research spans cryptography, secure systems, formal methods, and optimization on specialized hardware, with particular attention to problems where formal guarantees, algorithmic choices, and implementation constraints must be considered together. The papers below are representative of more than 50 publications.</p></div>
+            <div><p>Representative papers among more than 50 publications.</p></div>
             <a class="text-link" href="https://scholar.google.com/citations?user=x8brHjoAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Complete list on Google Scholar ↗</a>
           </div>
           <ol class="publication-list">
@@ -143,20 +148,6 @@
             <li><div class="pub-year">2010</div><div class="pub-entry"><h3>Inductive Trace Properties for Computational Security</h3><p><strong>Arnab Roy</strong>, Anupam Datta, Ante Derek, and John C. Mitchell.</p><p class="venue">Journal of Computer Security 18(6) <a href="https://eprint.iacr.org/2006/486" target="_blank" rel="noreferrer">ePrint ↗</a></p></div></li>
             <li><div class="pub-year">2005</div><div class="pub-entry"><h3>A Framework for Systematic Validation and Debugging of Pipeline Simulators</h3><p><strong>Arnab Roy</strong>, Subrat K. Panda, Rajeev Kumar, and Partha P. Chakrabarti.</p><p class="venue">ACM Transactions on Design Automation of Electronic Systems 10(3)</p></div></li>
           </ol>
-        </div>
-      </section>
-
-      <section class="section" id="recognition">
-        <div class="section-label"><h2>Honors</h2></div>
-        <div class="section-body">
-          <ul class="honors-list">
-            <li><span>2019</span><p><strong>Young Alumni Achiever Award</strong><br />IIT Kharagpur</p></li>
-            <li><span>2013–2020</span><p><strong>Co-Chair</strong><br />NIST Big Data Security and Privacy Subgroup</p></li>
-            <li><span>2018</span><p><strong>Top-scoring paper</strong><br />Public-Key Cryptography (PKC)</p></li>
-            <li><span>2013</span><p><strong>Best Paper Award</strong><br />ASIACRYPT</p></li>
-            <li><span>2006</span><p><strong>Siebel Scholar</strong><br />Stanford Computer Science</p></li>
-            <li><span>2004</span><p><strong>Prime Minister of India Gold Medal</strong><br />IIT Kharagpur</p></li>
-          </ul>
         </div>
       </section>
 
